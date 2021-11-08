@@ -10,19 +10,19 @@
   > - [Additional Information](#questions)
 
   ## Description:
-  a nodejs readme generator to start a basic readme file for a project
+  a node application to create a basic readme for a project
 
   ## Installation:
   npm i
 
   ## Usage:
-  no
+  No
 
   ## License:
   MIT
 
   ## Contribution
-  no
+  No
 
   ## Testing
   npm test
