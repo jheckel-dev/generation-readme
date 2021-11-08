@@ -74,11 +74,11 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then(function (data) {
         const markdown = generateMarkdown(data)
-        fs.writeFile("ReadMe.md", markdown, function (err) {
+        fs.writeFile("createdmarkdown.md", markdown, function (err) {
             if (err) {
                 return console.log(err);
             }
-            console.log("File written to ReadMe.md");
+            console.log("File written to createdmarkdown.md");
         })
     })
 }

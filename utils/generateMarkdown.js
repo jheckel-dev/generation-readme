@@ -16,9 +16,25 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Installation:
-  ${data.installation}
+  ${data.install}
 
   ## Usage:
+  ${data.usage}
+
+  ## License:
+  ${data.license}
+
+  ## Contribution
+  ${data.contribution}
+
+  ## Testing
+  ${data.test}
+
+  ## Feedback:
+
+  > - GitHub:
+  [${data.username}](https://github.com/${data.username})
+  > - Email: ${data.email}
 
 `;
 }
