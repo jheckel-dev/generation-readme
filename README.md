@@ -12,7 +12,7 @@
   ## Description:
   a node based readme generator to help expedite the process of creating readme files for future projects.
 
-  ![readme gen clip.gif]
+  <img src="readme gen clip.gif">
 
   ## Installation:
   npm i
