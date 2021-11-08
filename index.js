@@ -67,7 +67,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then(function (data) {
         const markdown = generateMarkdown(data)
-        fs.writeFile("createdmarkdown.md", markdown, function (err) {
+        fs.writeFile("README.md", markdown, function (err) {
             if (err) {
                 return console.log(err);
             }
